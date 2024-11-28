@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+        header{
+            background-color: blueviolet;
+        }
+        .error{
+            top: 5%;
+            left: 5%;
+            right: 5%;      
+            bottom: 5%;
+            background-color: blueviolet;
+            /*padding: 350px 0;
+            flex: 5 5 150px;*/
+        }
+
+        body{
+            height: 855px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main{
+                background-color:black;
+                padding: 350px 0;
+                flex: 5 5 150px;
+                color: aliceblue;
+        }
+
+        footer{
+            background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+<body>
+    <header><div id="error"></div>
+    <div><h1>ERROR</h1></div>
+    <br>
+    <h2><%= mensaje %></h2></header>
+
+    <div class="main">Error 404</div>
+
+    <footer>Fin del comunicado</footer>
+
+</body>
+</html>
