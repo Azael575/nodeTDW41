@@ -15,13 +15,13 @@ class Server {
         this.listen();
 
     }
-    conectarBD() {
-        this.con = mysql.createPool({
-            host: "localhost",
-            user: "root",
-            password: "Killgamer575",
-            database: "usuariosbd"
-        });
+    //conectarBD() {
+     //   this.con = mysql.createPool({
+       //     host: "localhost",
+         //   user: "root",
+            // password: "Killgamer575",
+            //database: "usuariosbd"
+       // });
 
     }
     middlewares() {
